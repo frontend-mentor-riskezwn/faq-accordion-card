@@ -1,1 +1,38 @@
-/* No CSS *//*# sourceMappingURL=index.css.map */
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#af67e9), to(#6565e7));
+  background: linear-gradient(#af67e9, #6565e7);
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 10em 1em;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+.container {
+  background: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.2em;
+  border-radius: 2em;
+}
+
+.container__image {
+  width: 70%;
+}
+
+.container__faq h1 {
+  text-align: center;
+  color: #1d1e35;
+  font-weight: 700;
+}
+/*# sourceMappingURL=index.css.map */

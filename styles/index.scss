@@ -12,3 +12,27 @@ $light-grayish-blue: hsl(240, 5%, 91%);
 
 $kumbh-sans: 'Kumbh Sans', sans-serif;
 
+body {
+    background: linear-gradient($soft-violet, $soft-blue);
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding: 10em 1em;
+    font-family: $kumbh-sans;
+}
+.container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.2em;
+    border-radius: 2em;
+}
+.container__image {
+    width: 70%;
+}
+.container__faq h1{
+    text-align: center;
+    color: $very-dark-saturated-blue;
+    font-weight: 700;
+}
